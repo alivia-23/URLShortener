@@ -16,11 +16,15 @@ Also keep track of total visits/clicks on the URL
   * Used **Express** as a middleware to parse incoming bodies
   * Used **Postman** for REST API routes call and check status
 
+## Steps to start the project
+  * **npm install** should install all the dependencies of this project
+  * **npm start** runs the index.js file
+  * open a new terminal and type **mongosh** to start connecting the MongoDB database
+  * **show dbs** lists the number od databased created
+  * **show collections** -> urls
+  * **db.urls.find({})** -> It will be blank first but after creating the shortId and redirectURL it shows list of urls as object
+  * download **postman** locally to get access to REST API calls for the local project otherwise if you use web version of postman it will show error
 
-## Open new terminal for MongoDB connection commands
-  * show dbs -> lists the number od databased created
-  * show collections -> urls
-  * db.urls.find({}) -> It will be blank first but after creating the shortId and redirectURL it shows list of urls as object
 
      
 
