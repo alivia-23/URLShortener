@@ -1,6 +1,6 @@
-# URL Shortener
+# URL Shortener (Backednd)
 
-Design a URL shortener service that takes in a valid URL and returns a shortened URL, redirecting the user to the previously provided URL
+Design and develop the backend of URL shortener service that takes in a valid URL and returns a shortened URL, redirecting the user to the previously provided URL
 
 Also keep track of total visits/clicks on the URL
 
